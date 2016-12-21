@@ -335,12 +335,10 @@ class PluginTreeviewConfig  extends CommonDBTM {
       global $DB,$CFG_GLPI;
 	  
       // get entity name
-      foreach ($_SESSION['glpiactiveprofile']['entities'] as $entity) {
-         $ID = $entity['id'];
-	  }  
+	  $entity=$_SESSION["glpiactive_entity"];
       $sql = "SELECT `glpi_entities`.`completename` AS entity
                        FROM `glpi_entities`
-                       WHERE `id` = '$ID'";
+                       WHERE `id` = '".$entity."'";
       $req = $DB->request($sql);
 
       if ($nb = $req->numrows()) {
@@ -352,7 +350,7 @@ class PluginTreeviewConfig  extends CommonDBTM {
 	  
       // The tree object	  
       echo "var d = new dTree('d');\n";
-      echo "d.add(0,-1,'".__($ent, 'treeview')."');\n";
+      echo "d.add(0,-1,'".$ent."');\n";
       $config = new PluginTreeviewConfig();
 
       // Request the display settings from the database and store them in the global object $config
