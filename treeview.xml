@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <root>
+            <name>Treeview</name>
+            <key>treeview</key>
+            <state>stable</state>
+            <logo>https://github.com/Blank-Vcf/Treeview/blob/1.8.9/treeview.jpg</logo>
+            <description>
+               <short>
+                  <fr>Plugin permettant d'afficher l'arborescence des lieux dans glpi dans un panneau latéral</fr>
+                  <en>Plugin to show a treeview of glpi locations in a left pane</en>
+               </short>
+               <long>
+                  <fr>Plugin permettant d'afficher l'arborescence des lieux dans glpi</fr>
+                  <en>Plugin to show a treeview of glpi locations</en>
+               </long>
+            </description>
+            <homepage>https://github.com/Blank-Vcf/Treeview</homepage>
+            <download>https://github.com/Blank-Vcf/Treeview/releases</download>
+            <issues>https://github.com/Blank-Vcf/Treeview/issues</issues>
+            <readme>https://raw.githubusercontent.com/Blank-Vcf/Treeview/1.8.8/README.md</readme>
+            <authors>
+               <author>Blk</author>
+            </authors>
+            <versions>
+               <version>
+                  <num>1.8.9</num>
+                  <compatibility>9.1.1</compatibility>
+               </version>
+            </versions>
+            <langs>
+               <lang>en_GB</lang>
+               <lang>fr_FR</lang>
+            </langs>
+            <license>GPL v2+</license>
+            <tags>
+               <en>
+                  <tag>treeview,arborescence</tag>
+               </en>
+               <fr>
+                  <tag>treeview,arborescence</tag>
+               </fr>
+            </tags>
+         </root>
