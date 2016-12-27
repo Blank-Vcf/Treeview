@@ -98,7 +98,7 @@ function plugin_init_treeview() {
 function plugin_version_treeview() {
 
    return array('name'           => __('Tree view', 'treeview'),
-                'version'        => '1.8.8',
+                'version'        => '1.8.9',
                 'license'        => 'GPLv2+',
                 'author'         => 'AL-Rubeiy Hussein, Xavier Caillaud, Nelly Mahu-Lasson',
                 'homepage'       => 'https://forge.indepnet.net/projects/treeview',
