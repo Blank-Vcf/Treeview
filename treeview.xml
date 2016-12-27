@@ -5,11 +5,11 @@
             <logo>https://raw.githubusercontent.com/Blank-Vcf/Treeview/1.8.9/treeview.jpg</logo>
             <description>
                <short>
-                  <fr><![CDATA[Plugin permettant d'afficher l'arborescence des lieux dans glpi dans un panneau latéral]]></fr>
+                  <fr><![CDATA[Plugin permettant d afficher une arborescence des lieux dans glpi dans un panneau latéral]]></fr>
                   <en><![CDATA[Plugin to show a treeview of glpi locations in a left pane]]></en>
                </short>
                <long>
-                  <fr><![CDATA[Plugin permettant d'afficher l'arborescence des lieux dans glpi]]></fr>
+                  <fr><![CDATA[Plugin permettant d afficher une arborescence des lieux dans glpi]]></fr>
                   <en><![CDATA[Plugin to show a treeview of glpi locations]]></en>
                </long>
             </description>
